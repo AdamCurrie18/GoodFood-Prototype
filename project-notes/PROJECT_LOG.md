@@ -16,11 +16,11 @@ Copy this block for each session.
 
 - **Goal for this session:**
 - **Key prompts we gave Copilot** (paste the important ones):
-  1.
-  2.
-- **What worked:**
-- **What broke, and how we fixed it:**
-- **Committed?** yes / no — commit message:
+  1. Make a website: nice friendly layout, an introduction page that says: "Welcome to GoodFood" with a short description of how the site works.
+  2. below the welcome page: add a section where users input their budget, # of people they are serving, and preferred grocery store (i.e sobeys, superstore)
+- **What worked: it all worked well
+- **What broke, and how we fixed it: nothing so far, nothing to fix
+- **Committed?** yes / no — commit message: 
 
 ---
 

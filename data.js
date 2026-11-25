@@ -11,16 +11,16 @@
 // ============================================================
 
 const STARTUP = {
-  name: "YourStartup",
-  tagline: "One sentence that says what your startup does.",
-  pitch: "Who is your customer, what problem do they have, and why is your solution better than what they use today?"
+  name: "GoodFood",
+  tagline: "Welcome to GoodFood",
+  pitch: "Search affordable ingredients and healthy meals, choose the ideas you like, and save your favourites in one simple place."
 };
 
 const LISTINGS = [
-  { id: 1, name: "Sample listing A", category: "Category 1", description: "A short description of this item." },
-  { id: 2, name: "Sample listing B", category: "Category 2", description: "A short description of this item." },
-  { id: 3, name: "Sample listing C", category: "Category 1", description: "A short description of this item." },
-  { id: 4, name: "Sample listing D", category: "Category 3", description: "A short description of this item." },
-  { id: 5, name: "Sample listing E", category: "Category 2", description: "A short description of this item." },
-  { id: 6, name: "Sample listing F", category: "Category 3", description: "A short description of this item." }
+  { id: 1, name: "Vegetable Rice Bowl", category: "Quick meal", description: "Brown rice, frozen vegetables and beans make a filling meal for about $3 per serving." },
+  { id: 2, name: "Chickpeas", category: "Budget ingredient", description: "An affordable source of protein and fibre that works in salads, curries and wraps." },
+  { id: 3, name: "Oatmeal with Banana", category: "Breakfast", description: "A simple, nutritious breakfast made with oats, milk or a dairy-free alternative and banana." },
+  { id: 4, name: "Egg and Spinach Wrap", category: "Quick meal", description: "Eggs and spinach wrapped with whole-grain tortilla offer an easy meal for under $4." },
+  { id: 5, name: "Seasonal Vegetables", category: "Budget ingredient", description: "Choose in-season produce to add vitamins and variety without stretching your grocery budget." },
+  { id: 6, name: "Lentil Pasta", category: "Budget meal", description: "Lentil pasta pairs with tomato sauce and frozen vegetables for a protein-rich, low-cost dinner." }
 ];

@@ -134,7 +134,26 @@
   searchBox.addEventListener("input", renderListings);
 
   // ----------------------------------------------------------
-  // 5. Start up.
+  // 5. Budget planner.
+  // ----------------------------------------------------------
+  const budgetForm = document.getElementById("budget-form");
+  const plannerResult = document.getElementById("planner-result");
+
+  budgetForm.addEventListener("submit", function (event) {
+    event.preventDefault();
+
+    const budget = document.getElementById("budget").value;
+    const people = document.getElementById("people").value;
+    const store = document.getElementById("grocery-store").value;
+
+    plannerResult.textContent =
+      "Your plan is set: $" + budget + " for " + people +
+      (people === "1" ? " person" : " people") +
+      " at " + store + ".";
+  });
+
+  // ----------------------------------------------------------
+  // 6. Start up.
   // ----------------------------------------------------------
   renderListings();
   showView();
